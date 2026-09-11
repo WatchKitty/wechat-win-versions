@@ -18,6 +18,25 @@ Backup policy:
 - Historical Release Assets: NOT mirrored
 - Future releases: archived independently by this repository
 
+Repository visibility: PUBLIC (deliberate, reviewed 2026-09-11)
+
+- GitHub Pages is only available for private repositories on GitHub Pro / Team /
+  Enterprise; on GitHub Free the repository must be public. Going private would
+  therefore break the online download page outright.
+- GitHub Actions is free and unlimited for public repositories. A private
+  repository would consume the shared 2,000 free minutes/month instead. This
+  repository uses roughly 20-60 minutes/month, so private would not have cost
+  money, but it would eat into the shared quota.
+- GitHub release assets are not billed: per GitHub Support, release assets live
+  outside the Git repository, do not count toward repository size limits, and
+  bandwidth is neither capped nor charged.
+- Note that making the repository private would not have made the published
+  page private either - GitHub Pages sites are publicly reachable on the
+  internet even when built from a private repository.
+- The visibility decision is recorded here because the trade-off is real: a
+  public repository clears the cost and functionality questions but keeps the
+  redistribution question open. See `NOTICE` for the licensing position.
+
 Initial source main SHA:
 e6b01ab039b6912e8e08d6e8e852dcc978bb2078
 
