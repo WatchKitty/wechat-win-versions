@@ -28,5 +28,18 @@ holders.
 This repository is not affiliated with or endorsed by Tencent, WeChat, or the
 original repository author.
 
-The original project's license and attribution remain applicable where
-appropriate.
+## Licensing status
+
+The upstream project declares **no license**: it contains no `LICENSE`,
+`COPYING` or `NOTICE` file, and the GitHub API reports `"license": null` for
+`Rodert/wechat-win-versions`. All rights in the upstream code therefore remain
+reserved by the original author.
+
+This backup repository does **not** grant any license for the upstream code,
+and cannot do so. Nothing here should be read as an MIT / Apache / GPL or any
+other open-source grant. See [`NOTICE`](NOTICE) for the full statement.
+
+If you are the original author or a rights holder and want this backup taken
+down or changed, please open an issue.
+
+The original project's attribution remains applicable.

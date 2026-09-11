@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   save_new_wechat:
@@ -54,3 +55,10 @@ jobs:
           git add releases.json
           git commit -m 'chore: update release cache'
           git push
+      # NOTE: commits pushed with GITHUB_TOKEN do not trigger other workflows,
+      # so pages.yml cannot rely on the `push` event for releases.json updates.
+      # Dispatch it explicitly instead.
+      - name: Trigger Pages deployment
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run pages.yml --repo "${{ github.repository }}"

@@ -1,0 +1,67 @@
+# NOTICE
+
+This file records the attribution and the licensing status of the source code
+contained in this repository. It is **not** a license grant.
+
+## Upstream project
+
+- Repository: https://github.com/Rodert/wechat-win-versions
+- Original author: Rodert (王仕宇 / Wang Shiyu)
+- Snapshot taken: 2026-09-11 (upstream `main` at
+  `e6b01ab039b6912e8e08d6e8e852dcc978bb2078`)
+
+## Licensing status of the upstream code
+
+**The upstream repository declares no license.**
+
+Verified on 2026-09-11:
+
+- `GET https://api.github.com/repos/Rodert/wechat-win-versions`
+  returns `"license": null`
+- the upstream repository tree contains no `LICENSE`, `COPYING`, `NOTICE`,
+  `AUTHORS` or `PATENTS` file
+- the upstream `README.md` contains no license statement
+
+Under the Berne Convention and the copyright laws of the People's Republic of
+China, the absence of a license means **all rights are reserved by the original
+author**. No permission to copy, modify, or redistribute the upstream code has
+been granted by the upstream project.
+
+Consequently:
+
+- **This backup repository does not grant any license for the upstream code**,
+  and cannot grant one, because it does not hold those rights.
+- Nothing in this repository should be read as an MIT / Apache / GPL or any
+  other open-source license.
+- The copyright in the upstream source code remains entirely with the original
+  author.
+- No commercial use, relicensing, or redistribution beyond this
+  disaster-recovery purpose is intended.
+
+## Purpose and scope of this repository
+
+This repository is an independent disaster-recovery backup. It exists so that
+the upstream code, Git history, tags and the automated version-discovery
+workflow survive if the upstream project is deleted, goes offline, or is no
+longer maintained.
+
+It deliberately does **not** mirror the upstream project's historical GitHub
+Releases or release assets.
+
+## WeChat binaries
+
+The WeChat installer binaries archived in the Releases of this repository are
+downloaded, unmodified and unsigned-by-us, from the official WeChat channels
+(`https://pc.weixin.qq.com/`, `https://dldir1v6.qq.com/`). They are the property
+of their respective rights holders. This repository does not claim any rights
+over them.
+
+## Affiliation
+
+This repository is not affiliated with, authorised by, or endorsed by Tencent,
+WeChat, or the original author.
+
+## Requests
+
+If you are the original author, or a rights holder, and you want this backup
+taken down or changed, please open an issue and it will be actioned.

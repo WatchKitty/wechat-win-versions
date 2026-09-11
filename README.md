@@ -15,6 +15,10 @@
 > 为避免大量重复存储，本仓库 **不会镜像原项目已有的历史 GitHub Releases 和历史安装包附件**。本仓库只会从独立部署完成之后，通过自己的 GitHub Actions 从微信官方渠道采集并保存后续版本。
 >
 > 本仓库不是微信、腾讯或原作者的官方仓库，也不代表原作者对本备份仓库提供背书。原项目的版权、许可证和原作者署名保持不变。
+>
+> **许可状态 / License status**：上游仓库**未声明任何开源许可证**（仓库内无 `LICENSE` 文件，GitHub API 返回 `license: null`），版权归原作者所有。因此本仓库**不授予任何许可证**，仅作灾备留存之用。详见 [NOTICE](NOTICE)。
+>
+> **本仓库已主动修改的 3 处**：`releases.json` 已清空为上游历史缓存不含的状态；`README.md` / `index.html` 增加了独立备份声明；`index.html` 的仓库链接改指向本备份仓库，原仓库链接以 `Original repo` 保留。核心采集脚本 `scripts/destVersionRelease.sh` 与版本判断逻辑**未作任何改动**。
 
 ---
 
