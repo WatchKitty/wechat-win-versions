@@ -122,3 +122,24 @@ version-discovery logic is untouched.
   - independent-backup declarations and attribution
 - `scripts/destVersionRelease.sh`
   - **unchanged** (data source: `pc.weixin.qq.com`, no upstream dependency)
+
+## Upstream author consent — status
+
+A request for consent has been filed with the original author.
+
+- Issue: https://github.com/Rodert/wechat-win-versions/issues/1
+- Filed: 2026-09-11 (upstream issues are enabled and the repository is active)
+- Title: 关于一个独立灾备镜像仓库的说明与请求表态
+- Status: **OPEN — no reply yet. Consent has NOT been granted.**
+
+The issue discloses what this backup did (non-fork repo, mirrored history and
+tags, historical releases deliberately not migrated, unmodified official
+installers), and offers the author three options: keep as-is, narrow the scope,
+or take it down.
+
+It also records a standing commitment: **silence is not treated as permission.**
+If no reply arrives, this repository is to be converted to private and its Pages
+site taken offline, without further notice.
+
+Do not describe this repository as "authorised by the original author" while
+this status reads OPEN.
