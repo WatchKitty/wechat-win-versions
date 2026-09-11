@@ -1,3 +1,23 @@
+<!-- INDEPENDENT-BACKUP-NOTICE -->
+
+> [!IMPORTANT]
+> ## 独立备份 / Disaster-Recovery Backup
+>
+> 本仓库是 **Rodert/wechat-win-versions** 的独立备份与灾备副本。
+>
+> 原项目 / Original repository:  
+> https://github.com/Rodert/wechat-win-versions
+>
+> 原作者 / Original author: **Rodert**
+>
+> 建立本仓库的主要目的是在原项目未来不可用、删除或停止维护时，保留其代码、Git 历史和自动版本采集能力。
+>
+> 为避免大量重复存储，本仓库 **不会镜像原项目已有的历史 GitHub Releases 和历史安装包附件**。本仓库只会从独立部署完成之后，通过自己的 GitHub Actions 从微信官方渠道采集并保存后续版本。
+>
+> 本仓库不是微信、腾讯或原作者的官方仓库，也不代表原作者对本备份仓库提供背书。原项目的版权、许可证和原作者署名保持不变。
+
+---
+
 # wechat-windows-versions
 
 语言: 中文 | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Русский](README.ru.md) | [Français](README.fr.md) | [Español](README.es.md)
