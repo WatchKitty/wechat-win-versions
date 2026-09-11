@@ -22,8 +22,18 @@ Initial source main SHA:
 e6b01ab039b6912e8e08d6e8e852dcc978bb2078
 
 Current backup main SHA:
+not pinned here on purpose - a SHA recorded in a file is stale the moment it is
+committed. Use `git log` / `git rev-parse HEAD` for the live value.
+
+Backup main SHA immediately after the mirror push:
+e6b01ab039b6912e8e08d6e8e852dcc978bb2078  (verified equal to source main)
+
+Backup main SHA at the first independent release (release-cache commit):
 b3676966b143131eff530d84fef090f328f41125
-(state at the moment this manifest was generated, before the manifest commit itself)
+
+Everything after that commit is this repository's own maintenance work
+(README / ARCHIVE_* / index.html / NOTICE / destversion.yml). Run `git log` for
+the current HEAD; the field above is deliberately not kept up to date.
 
 Initial source main SHA == backup initial main SHA:
 VERIFIED (e6b01ab039b6912e8e08d6e8e852dcc978bb2078)
