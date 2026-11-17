@@ -68,7 +68,7 @@
         "state": "uploaded",
         "size": 259805488,
         "digest": "sha256:a463110fed2dad8f27a313a1e5118cfbbe8b9de2b9296db8015a496e07191052",
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2026-11-16T16:51:34Z",
         "updated_at": "2026-11-16T16:51:47Z",
         "browser_download_url": "https://github.com/WatchKitty/wechat-win-versions/releases/download/v4.2.0.53/WeChatSetup-4.2.0.53.exe"
